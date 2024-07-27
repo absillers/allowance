@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" , href="{% static 'css/style.css' %}" >
+    <link rel='icon', type="image/jpg" href="{% static 'css/allowance_logo_thumbnail.jpg' %}"
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <img src="{% static 'css/allowance_logo.jpg' %}"
+
+    {% block content %} 
+    {% endblock %}
+
+    {% block another_content_bar %} 
+    {% endblock %}
+</body>
+
+</html>

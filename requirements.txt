@@ -1,0 +1,13 @@
+asgiref==3.8.1
+dj-static==0.0.6
+Django==4.2.11
+django-environ==0.11.2
+environ==1.0
+livereload==2.6.3
+python-dotenv==1.0.1
+six==1.16.0
+sqlparse==0.4.4
+static3==0.7.0
+tornado==6.4
+typing_extensions==4.10.0
+tzdata==2024.1
